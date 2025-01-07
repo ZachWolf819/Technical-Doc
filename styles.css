@@ -1,0 +1,67 @@
+@media (max-width: 800px) {
+    body{
+      flex-direction: column;
+    }
+    #main-doc {
+      width: 70%;
+    }
+    #navbar {
+      width: 30%;
+    }
+  }
+  
+  header {
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: row;
+    color: orange;
+    font-size: 25px;
+  }
+  
+  #navbar {
+    background-color: orange;
+    width: 25%;
+    font-size: 25px;
+    color: #3F3838;
+    position: fixed;
+    height: 100%;
+  }
+  
+  #main-doc {
+    background-color: #3F3838;
+    width: 70%;
+    padding-left: 490px;
+    padding-right: 100px;
+  }
+  
+  .nav-link {
+    line-height: 3;
+    color: #3F3838;
+    font-weight: bold;
+    width: 80%;
+  }
+  
+  #ul-navbar li {
+    border: 1px solid #3F3838;
+    width: 80%;
+    height: 100px;
+    
+  }
+  
+  .navhead {
+    color: #3F3838;
+  }
+  
+  .headbg {
+    background: black;
+  }
+  
+  p {
+    text-align: center;
+  }
