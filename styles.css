@@ -1,16 +1,4 @@
-@media (max-width: 800px) {
-    body{
-      flex-direction: column;
-    }
-    #main-doc {
-      width: 70%;
-    }
-    #navbar {
-      width: 30%;
-    }
-  }
-  
-  header {
+   header {
     color: orange;
     font-size: 40px;
     text-align: center;
